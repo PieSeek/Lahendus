@@ -19,7 +19,7 @@ failinimi = input('Sisesta failinimi: ')
 
 tabel = fail_listiks(failinimi)
 
-suurim_summa = 0
+suurim_summa = -999999999999999999999999999999999999999999999999999
 
 for rida in tabel:
     if sum(rida) > suurim_summa:
